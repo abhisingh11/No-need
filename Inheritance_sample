@@ -1,0 +1,15 @@
+class Student(Person):
+    def __init__(self,fname,lname,year):
+        super().__init__(fname,lname)
+        self.year = year
+        self.fname = fname
+        self.lname = lname
+    def myqwe(self):
+        print("Welcome Mr " + self.fname +self.lname+" of year "+ self.year )
+        print("You will graduate at " + (self.year +2))
+
+name1 = input('Whats your first name?')
+name2 = input('Whats your last name')
+ye = int(input("When do you join the college")
+x = Student(name1, name2, ye)
+x.myqwe()
