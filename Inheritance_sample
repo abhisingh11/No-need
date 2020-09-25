@@ -1,6 +1,6 @@
-class Student(Person):
+class Student:
     def __init__(self,fname,lname,year):
-        super().__init__(fname,lname)
+        #super().__init__(fname,lname)
         self.year = year
         self.fname = fname
         self.lname = lname
