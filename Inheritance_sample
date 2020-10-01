@@ -6,7 +6,8 @@ class Student:
     def myqwe(self):
         print("Welcome Mr " + self.fname +self.lname+" of year "+ self.year) 
         print("You will graduate at " + str(int(self.year) +2))
-
+#Rather than taking str and converting it into int
+#we can also take int and do vice vera. This helps in clearning confusion
 name1 = input('Whats your first name?\n')
 name2 = input('Whats your last name\n')
 ye = input("When do you join the college\n")
